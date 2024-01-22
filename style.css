@@ -47,6 +47,13 @@ body{
     max-width: 100%;
 }
 
+.img-gallery{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .top-product .discount{
     position: absolute;
     left: 0;
