@@ -37,16 +37,54 @@ body{
     position: absolute;
     left: 0;
     bottom: 30px;
+    padding: 5px;
+    font-size: 0.6rem;
+
+
 } 
 
 .sm{
     background-color: red;
+    color: white;
 }
 
 .md{
     background-color: green;
+    color: white;
 }
 
+.sostenibilità{
+    position: absolute;
+    bottom: 30px;
+    left: 38px;
+    background-color: green;
+    color: white;
+    font-size: 0.6rem;
+    padding: 5px;
+}
+
+.marca{
+    font-size: 0.9rem;
+}
+
+.articolo{
+    font-weight: bold;
+}
+
+.prezzi{
+    display: flex;
+}
+
+.prezzo-scontato{
+    color: red;
+    font-weight: bold;
+}
+
+.prezzo-pieno{
+    text-decoration: line-through;
+    padding-left: 5px;
+
+}
 
 
 .debug{
