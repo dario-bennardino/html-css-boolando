@@ -20,7 +20,7 @@ body{
 } 
 
 .product{
-    margin: 1px;
+    margin: 10px;
     width: 300px;
 
 }
@@ -61,6 +61,17 @@ body{
     color: white;
     font-size: 0.6rem;
     padding: 5px;
+}
+
+.sostenibilità-singolo{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    background-color: green;
+    color: white;
+    font-size: 0.6rem;
+    padding: 5px;
+
 }
 
 .marca{
