@@ -1,44 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
     background-color: #FF6902;
     height: 100px;
     display: flex;
     justify-content: center;
     justify-content: space-between;
+    box-shadow: 0 1px 3px;
 }
 
-footer{
+.social i {
+    color: white;
+    padding: 5px;
+}
+
+footer {
     background-color: black;
     height: 100px;
 }
 
-.container-homepage{
+.container-homepage {
     width: 80%;
     max-width: 1000px;
     margin: 40px auto;
     align-items: center;
 }
 
-.genere{
+.genere {}
 
-}
-
-.topbar{
+.topbar {
     display: flex;
     justify-content: center;
     justify-content: space-between;
+    align-items: center;
 }
 
-.genere > a{
+.genere>a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -46,17 +51,13 @@ footer{
 
 }
 
-.logo{
+.logo {}
 
-}
-
-.logo > img{
+.logo>img {
     width: 150px;
-
-
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     width: 80%;
@@ -65,59 +66,60 @@ footer{
     flex-wrap: wrap;
     align-content: start;
     justify-content: space-between;
-} 
+}
 
-.product{
+.product {
     margin: 10px;
     width: 300px;
 
 }
 
-.top-product{
+.top-product {
     position: relative;
 }
 
-.preferiti{
+.preferiti {
     background-color: white;
     padding: 5px 7px;
     color: black;
     position: absolute;
     right: 0;
-    top: 5px; 
-    display: none;  
-}
-
-.product:hover .preferiti{
-    display: block;
-}
-
-.top-product > img{
-    max-width: 100%;
-}
-
-.img-gallery{
+    top: 5px;
     display: none;
 }
 
-.top-product .discount{
+
+.product:hover .preferiti {
+    display: block;
+}
+
+.top-product>img {
+    max-width: 100%;
+}
+
+.img-gallery {
+    display: none;
+}
+
+.top-product .discount {
     position: absolute;
     left: 0;
     bottom: 30px;
     padding: 5px;
     font-size: 0.6rem;
-} 
+}
 
-.sm{
+.sm {
     background-color: red;
     color: white;
 }
 
-.md{
+.md {
     background-color: green;
     color: white;
 }
 
-.sostenibilità{
+.sostenibilità {
     position: absolute;
     bottom: 30px;
     left: 38px;
@@ -127,7 +129,7 @@ footer{
     padding: 5px;
 }
 
-.sostenibilità-singolo{
+.sostenibilità-singolo {
     position: absolute;
     bottom: 30px;
     left: 0;
@@ -138,33 +140,30 @@ footer{
 
 }
 
-.marca{
+.marca {
     font-size: 0.9rem;
 }
 
-.articolo{
+.articolo {
     font-weight: bold;
 }
 
-.prezzi{
+.prezzi {
     display: flex;
 }
 
-.prezzo-scontato{
+.prezzo-scontato {
     color: red;
     font-weight: bold;
 }
 
-.prezzo-pieno{
+.prezzo-pieno {
     text-decoration: line-through;
     padding-left: 5px;
 
 }
 
 
-.debug{
+.debug {
     background-color: red
 }
-
-
-
